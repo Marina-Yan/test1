@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "BARLOW";
+    font-style: normal;
+    font-weight: 400;
+    src: url("barlow/Barlow-Medium.otf") ;
+          }
+div.window{display: inline-block;
+width:90%;
+height: 1000px;
+background-color: #EEEEEE;
+margin: 10px 15px;
+box-shadow: 2px 2px 5px lightgray;} 
+
+.image { display: inline-block;
+    width: 50%;
+    height: 1000px;
+   
+    background-image: url("img/bg.jpg");
+     background-repeat: no-repeat;
+     vertical-align: top;      
+ }
+.logo {padding: 20px 0px 0px 20px; }
+
+
+
+main {background-color: #EFF6FF;
+    font-family: "BARLOW", "Arial", sans-serif;
+    color: #2A4A5C;
+    padding: 10px;}
+
+.content {display: inline-block;
+    width: 45%;
+margin-left: 50px;
+
+}
+
+h1 {font-size: 2em;
+    padding-top: 70px; }
+.th {padding: 40px 0px 0px;}
+button {color: white;
+   border: 0px; }
+.F {padding: 10px 25px; margin-top: 50px; margin-right: 30px;  background-color: #255A9B;}
+.L {padding: 10px 25px; background-color:#0076B6 ;}
+button > img {margin-right: 10px; 
+    height:15px;
+    vertical-align: middle;}
+ p.or {display: inline-block;
+        width: 90%;
+    text-align: center;
+white-space: pre;}
+p.or > span{text-decoration: line-through;}
+input[type="text"] {height: 4em; vertical-align:top;
+    vertical-align: text-bottom;
+border-color: rgb(223, 221, 221);}
+h2 {padding-top:20px; font-size: 1.25em;}
+.CA {padding: 10px 35px; border-radius: 3px; margin-top: 50px; margin-right: 30px;  background-color: #3698FB;}
